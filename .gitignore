@@ -1,0 +1,15 @@
+.DS_Store
+
+node_modules
+
+/build
+/.svelte-kit
+/package
+
+# Github pages deployment script
+gh-pages.ts
+
+# Secrets
+.env
+.env.*
+!.env.example
