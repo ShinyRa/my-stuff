@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+	<link rel="modulepreload" href="/_app/start-012d8cf8.js">
+	<link rel="modulepreload" href="/_app/chunks/vendor-f0095a1c.js">
+	<link rel="modulepreload" href="/_app/layout.svelte-fa363a05.js">
+	<link rel="modulepreload" href="/_app/pages/index.svelte-b6b9e7ae.js">
+			<script type="module">
+				import { start } from "/_app/start-012d8cf8.js";
+				start({
+					target: document.querySelector("#svelte"),
+					paths: {"base":"","assets":""},
+					session: {},
+					route: true,
+					spa: false,
+					trailing_slash: "never",
+					hydrate: {
+						status: 200,
+						error: null,
+						nodes: [
+							import("/_app/layout.svelte-fa363a05.js"),
+						import("/_app/pages/index.svelte-b6b9e7ae.js")
+						],
+						url: new URL("http://sveltekit-prerender/"),
+						params: {}
+					}
+				});
+			</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+</div>
+	</body>
+</html>
